@@ -1,5 +1,5 @@
 body {
-	font-family: "Yanone Kaffeesatz","Helvetica Neue", Arial, sans-serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	line-height: 1;
 	margin: 0;
 	margin-bottom: 30px;
@@ -25,7 +25,6 @@ body {
 }
 .header {
 	width: 100%;
-	background-color: #d4d4db;
 	color: #2f4f4f;
 	display: inline-block;
 	/*padding: 20px 10px 10px 30px;*/
@@ -37,6 +36,11 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+.date {
+	font-size: .5ems;
+	text-align: center;
+	color: #d3d3d3;
+}
 a {
 	text-decoration: none;
 }
@@ -44,7 +48,7 @@ a:hover {
 	color: black;
 }
 .links li {
-	font-size: 1.5em;
+	font-size: 2em;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	list-style: none;
@@ -66,8 +70,8 @@ h1 {
 	margin-bottom: 0px;
 }
 .meat-image {
-	width: 40px;
-	height: 40px;
+	width: 20px;
+	height: 20px;
 	display: inline-block;
 }
 #large {
@@ -153,7 +157,8 @@ a {
 	margin-right: auto;
 	margin-left: auto;
 }
-.idk101 {
+.tweets {
+	width: 500px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
