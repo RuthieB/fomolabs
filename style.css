@@ -1,36 +1,35 @@
 body {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
+	background-color: #E0F8F7;
 	margin: 0;
 	margin-bottom: 30px;
 }
 /*.content {
 	margin-left: auto;
-	margin-right: auto; 
+	margin-right: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 0;
 } */
-.fomo {
-	width: auto;
-	display: inline-block;
-}
 .titles {
-	width: auto;
-	display: inline-block;
+	width: 80%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.fomo-image {
-	width: 120px;
-	height: 120px;
-}
-.header {
+header {
 	width: 100%;
 	color: #2f4f4f;
 	display: inline-block;
 	/*padding: 20px 10px 10px 30px;*/
-	text-align: center;
+	text-align: left;
 }
-
+.titles2 {
+	width: 70%;
+	margin-top: 20px;
+	margin-left: 10px;
+}
 .container {
 	width: 80%;
 	margin-left: auto;
@@ -142,9 +141,6 @@ a {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-}
-.footer .left {
-	float: left;
 }
 .footer .right {
 	float: right;
